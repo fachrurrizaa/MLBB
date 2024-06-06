@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth-scrolling;
+}
+
+html,
+body {
+  background-image: url('/assets/bg.jpeg');
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
